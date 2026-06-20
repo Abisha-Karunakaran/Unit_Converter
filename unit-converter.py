@@ -19,18 +19,18 @@ from tkinter import ttk
 
 THEMES = {
     "dark": {
-        "bg": "#1c121a",
-        "card": "#2f1e2c",
-        "text": "#f2f2f2",
-        "accent": "#a87ea0",
-        "muted": "#9c8a98",
+        "bg": "#0A2947",      # deep navy background
+        "card": "#2F4963",    # lighter navy card
+        "text": "#F3E4C9",    # cream text
+        "accent": "#976E50",  # lightened brown so it stands out on navy
+        "muted": "#D3D4C0",   # sage for secondary text
     },
     "light": {
-        "bg": "#efeced",
-        "card": "#ffffff",
-        "text": "#2a1b27",
-        "accent": "#5e3c58",
-        "muted": "#7c6078",
+        "bg": "#F3E4C9",      # cream background
+        "card": "#F9F2E4",    # near-white cream card
+        "text": "#0A2947",    # navy text
+        "accent": "#8B5E3C",  # brown accent
+        "muted": "#939486",   # darkened sage for secondary text
     },
 }
 
